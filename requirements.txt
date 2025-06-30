@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+yfinance
+mplfinance
+scipy
+pytrends
+scikit-fuzzy
