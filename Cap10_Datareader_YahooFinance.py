@@ -8,9 +8,9 @@ import pandas as pd
 import matplotlib.pyplot as plt  # Importação adicionada aqui
 from datetime import datetime
 
-# Configurações
+# Configurações. 
 TICKER = 'PETR4.SA'
-DATA_INICIO = '2023-01-01'
+DATA_INICIO = '2024-01-01'
 DATA_FIM = datetime.now().strftime('%Y-%m-%d')
 
 def ajustar_dataframe(df):
