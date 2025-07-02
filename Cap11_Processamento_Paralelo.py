@@ -4,7 +4,7 @@ import numpy as np  # Importação do NumPy para geração de números aleatóri
 
 def simular_montecarlo(ticker):
     # Simulação fictícia de VaR usando distribuição aleatória
-    time.sleep(0.5)  # Simulando processamento pesado
+    time.sleep(0.5)  # Simulando processamento pesado.
     var = np.random.uniform(2, 5)  # Gera um valor aleatório entre 2% e 5%
     return f"{ticker}: VaR 95% = {var:.2f}%"
 
